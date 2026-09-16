@@ -1,35 +1,59 @@
 # Rohit Kumar — Portfolio
 
-A premium personal portfolio website built with **React + JavaScript**, Tailwind CSS v4, and Framer Motion.
+A modern, responsive personal portfolio website showcasing my skills, projects, experience, education, and achievements as a Full Stack Web Developer.
 
-## Tech Stack
+## 🚀 Live Portfolio
 
-- **React 18** + **JavaScript (JSX)**
-- **Vite** — dev server & bundler
-- **Tailwind CSS v4** — utility-first styling
-- **Framer Motion** — animations
-- **Lucide React** + **React Icons** — icons
-- **next-themes** — dark/light mode
+Coming soon...
 
-## Getting Started
+## 🛠️ Tech Stack
 
-```bash
-# 1. Install dependencies
-npm install
+- **React.js** — Frontend development
+- **JavaScript (JSX)** — Application logic
+- **Vite** — Development server and build tool
+- **Tailwind CSS** — Styling and responsive design
+- **Framer Motion** — Animations and transitions
+- **Lucide React** — Icons
+- **React Icons** — Additional icons
+- **Next Themes** — Dark/Light mode
 
-# 2. Start development server
-npm run dev
+## ✨ Features
 
-# 3. Build for production
-npm run build
+- 🎨 Modern and responsive UI
+- 🌙 Dark and light mode
+- ⚡ Fast Vite-powered development
+- 🎬 Smooth Framer Motion animations
+- 📱 Mobile-friendly design
+- 💼 Projects showcase
+- 🧑‍💻 Skills and technology section
+- 🎓 Education and experience section
+- 🏆 Achievements and certificates
+- 📩 Contact section
+- 🔗 GitHub and LinkedIn integration
 
-# 4. Preview production build
-npm run preview
-```
+## 📂 Featured Projects
 
-## Project Structure
+### 🥗 NutriGuide AI
 
-```
+An AI-powered nutrition assistant designed to help users manage their diet and nutrition.
+
+**Tech:** React, Node.js, Express.js, MongoDB, Tailwind CSS, AI APIs
+
+### 🌦️ Weather Dashboard
+
+A responsive weather dashboard displaying real-time weather information with an interactive interface.
+
+**Tech:** React, Weather API, Tailwind CSS, Framer Motion
+
+### ✅ To-Do List
+
+A full-stack task management application that allows users to securely create, update, organize, and delete tasks.
+
+**Tech:** React, Node.js, Express.js, MongoDB, Tailwind CSS
+
+## 📁 Project Structure
+
+```text
 src/
 ├── components/
 │   ├── Navbar.jsx
@@ -41,7 +65,6 @@ src/
 │   ├── Education.jsx
 │   ├── Achievements.jsx
 │   ├── Certificates.jsx
-│   ├── Testimonials.jsx
 │   ├── Contact.jsx
 │   ├── Footer.jsx
 │   ├── LoadingScreen.jsx
@@ -52,17 +75,7 @@ src/
 │   └── useScrollReveal.js
 ├── lib/
 │   └── utils.js
+├── assets/
 ├── App.jsx
 ├── main.jsx
 └── index.css
-```
-
-## Customisation
-
-- Update your name, bio, and details in each component inside `src/components/`
-- Add your profile photo to `src/assets/` and import it in `Hero.jsx` and `About.jsx`
-- Link your resume PDF in `Hero.jsx` (Download Resume button `href`)
-- Update social media links in `Hero.jsx`, `Navbar.jsx`, and `Footer.jsx`
-- Update project details and live/GitHub links in `Projects.jsx`
-- Add real certificate images in `Certificates.jsx`
-- Update contact info (email, phone, location) in `Contact.jsx`
